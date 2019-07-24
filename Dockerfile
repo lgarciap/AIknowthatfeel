@@ -19,5 +19,5 @@ COPY evaluate_model.py /app
 
 # Run app.py when the container launches
 #You can test it this way
-CMD ["python", "evaluate_model.py", "dev.txt", "data_dev/"]
-#CMD ["python", "evaluate_model.py", "test.txt", "data_test/"]
+#CMD ["python", "evaluate_model.py", "dev.txt", "data_dev/"]
+CMD ["python", "evaluate_model.py", "test.txt", "data_test/"]
